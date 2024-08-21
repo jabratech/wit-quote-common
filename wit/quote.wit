@@ -1,0 +1,6 @@
+interface handler {
+    use types.{quote-request, quote-approval-request};
+    use jabratech:common/types.{response};
+    create: func(request: quote-request) -> result<bool, response>;
+    approve: func(request: quote-approval-request) -> result<bool, response>;
+  }

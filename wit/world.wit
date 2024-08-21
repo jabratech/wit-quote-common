@@ -1,0 +1,5 @@
+package jabratech:quote;
+
+world quote {
+    export quote-handler;
+}
