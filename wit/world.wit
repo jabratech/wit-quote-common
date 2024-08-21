@@ -1,5 +1,5 @@
-package jabratech:quote;
+package jabratech:quote-common;
 
 world quote {
-    export quote-handler;
+    export handler;
 }
